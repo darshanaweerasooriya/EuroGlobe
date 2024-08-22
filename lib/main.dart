@@ -1,5 +1,3 @@
-import 'package:european_countries_app/components/components.dart';
-import 'package:european_countries_app/screens/home.dart';
 import 'package:flutter/material.dart';
 
 import 'package:european_countries_app/screens/welcom.dart';

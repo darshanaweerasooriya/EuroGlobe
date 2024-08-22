@@ -36,16 +36,8 @@ class CountryDetailScreen extends StatelessWidget {
               'Population: ${country['population']}',
               style: TextStyle(fontSize: 18),
             ),
-            SizedBox(height: 8),
-            Text(
-              'Region: ${country['region']}',
-              style: TextStyle(fontSize: 18),
-            ),
-            SizedBox(height: 8),
-            Text(
-              'Subregion: ${country['subregion']}',
-              style: TextStyle(fontSize: 18),
-            ),
+
+
           ],
         ),
       ),
