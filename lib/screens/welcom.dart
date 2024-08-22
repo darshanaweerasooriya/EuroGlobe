@@ -1,3 +1,4 @@
+import 'package:european_countries_app/components/components.dart';
 import 'package:flutter/material.dart';
 
 class welcome extends StatefulWidget {
@@ -142,6 +143,11 @@ class _welcomeState extends State<welcome> {
                             height: 50,
                             child: ElevatedButton(
                               onPressed: () {
+                                Navigator.of(context).push(MaterialPageRoute(
+                                    builder:(_){
+                                      return tabbar();
+                                    }
+                                ));
 
                               },
                               style: ButtonStyle(
